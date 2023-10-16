@@ -1,0 +1,51 @@
+form {
+    text-align: center; /* Center-aligns the content inside the form element. */
+    margin: 50px auto; /* Sets margin space around the form, auto centers it horizontally. */
+}
+
+.google-logo {
+    text-align: center; /* Center-aligns the text inside elements with class "google-logo". */
+    font-size: 50px; /* Sets the font size for the text inside elements with class "google-logo". */
+    align-items: center; /* Aligns the items (in this case, the text spans) to the center. */
+    font-weight: bold; /* Sets the font weight of the text inside elements with class "google-logo" to bold. */
+    font-family: "Roboto", sans-serif; /* Specifies the font family for the text inside elements with class "google-logo". */
+    font-size: 100px; /* Overrides the previous font size declaration for elements with class "google-logo". */
+    letter-spacing: -5px; /* Adjusts the spacing between letters, pulling them closer together. */
+    margin: 20px 0; /* Sets margin space above and below elements with class "google-logo". */
+}
+
+.g { color: #4285f4; } /* Sets the color of the text with class "g" to a shade of blue. */
+.o1 { color: #ff1a00; } /* Sets the color of the text with class "o1" to a shade of red. */
+.o2 { color: #fbbc05; } /* Sets the color of the text with class "o2" to a shade of orange. */
+.g2 { color: #4285f4;} /* Sets the color of the text with class "g2" to a shade of blue. */
+.l { color: #34a853; } /* Sets the color of the text with class "l" to a shade of green. */
+.e { color: #ff1a00; } /* Sets the color of the text with class "e" to a shade of red. */
+
+input[type="text"] {
+    padding: 10px; /* Sets padding inside the text input field. */
+    width: 300px; /* Sets the width of the text input field to 300 pixels. */
+    font-size: 16px; /* Sets the font size of the text inside the input field. */
+    margin-bottom: 10px; /* Sets margin space below the text input field. */
+    border-radius: 25px; /* Rounds the corners of the text input field. */
+    background-image: url('magnifying-glass-icon.svg'); /* Sets a background image (magnifying glass icon) inside the input field. */
+    background-repeat: no-repeat; /* Prevents the background image from repeating. */
+    background-position: 10px center; /* Sets the position of the background image inside the input field. */
+    background-size: 20px 20px; /* Sets the size of the background image inside the input field. */
+    outline: none; /* Removes the default outline (border) when the input field is focused. */
+}
+
+input[type="submit"] { /**  **/
+    padding: 10px 20px; /* Sets padding inside the submit button. */
+    font-size: 16px; /* Sets the font size of the text inside the submit button. */
+}
+
+.navbar-google { /** Erase bullet point from li **/
+    list-style-type: none; /* Removes the default bullet points from the list items. */
+    display: flex; /* Uses flexbox layout for the list items. */
+    align-items: row; /* Aligns the items horizontally in a row. */
+    justify-content: flex-end; /* Aligns the content to the flex-end (right) of the container. */
+}
+
+.navbar-item-google {
+    margin: 10px; /* Sets margin space around the list items with class "navbar-item-google". */
+}
