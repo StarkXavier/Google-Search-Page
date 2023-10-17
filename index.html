@@ -4,7 +4,7 @@
         <title>Google Search</title> <!-- Sets the title of the page displayed in the browser tab. -->
         <link rel="stylesheet" href="style.css"> <!-- Links an external CSS stylesheet called "style.css" to the HTML page for styling. -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Links an external font from Google Fonts for use in the page. -->
-        <meta name="viewport" content="width-device-width", initial-scale=1.0> <!-- Sets the viewport meta tag for responsive web design. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Sets the viewport meta tag for responsive web design. -->
     </head>
     <body> <!-- This is the body section of the HTML document, where the visible content is defined. -->
         <div> <!-- Defines a div element to contain a section of content. -->
@@ -13,18 +13,15 @@
                 <li class="navbar-item-google"><a href="advanced.html">Advanced Search</a></li> <!-- List item with a link to "advanced.html" for Advanced Search. -->
             </ul>
         </div>
-        <div class="google-logo"> <!-- Defines a div with a class "google-logo" for the Google logo. -->
-            <span class="g">G</span> <!-- Uses span elements to create individual letters for the Google logo. -->
-            <span class="o1">o</span>
-            <span class="o2">o</span>
-            <span class="g2">g</span>
-            <span class="l">l</span>
-            <span class="e">e</span>
+        <div class="center-div"> <!-- Defines a div with a class "google-logo" for the Google logo. -->
+            <img src="google.jpg" alt="Google Icon" height="92">
         </div>
         <form action="https://www.google.com/search"> <!-- Creates a form element for searching Google, with "action" attribute specifying where to send the search query. -->
-            <input type="text" name="q" placeholder="&#128269; Search Google..."> <!-- Input field for entering search queries with a placeholder. -->
-            <br> <!-- Line break to separate the input field from the submit button. -->
-            <input type="submit" value="Google Search"> <!-- Submit button for initiating the Google search. -->
+            <input type="text" name="q" placeholder="Search Google..." class="rounded-input"> <!-- Input field for entering search queries with a placeholder. -->          
+            <div class="center-div">
+                <input type="submit" value="Google Search" class="btn-google"> <!-- Submit button for initiating the Google search. -->
+                <input type="submit" value="I'm Feeling Lucky" class="btn-google">
+            </div>            
         </form>
     </body>
 </html>
