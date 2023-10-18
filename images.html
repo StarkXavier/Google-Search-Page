@@ -1,25 +1,25 @@
-<!DOCTYPE html> <!-- This declares the document type for an HTML page. -->
+<!DOCTYPE html> <!-- Declares the document type for an HTML5 page. -->
 <html lang="en"> <!-- The opening tag for the HTML document with a specified language attribute. -->
-    <head> <!-- This is the head section of the HTML document, where metadata and links are defined. -->
+    <head> <!-- The head section of the HTML document, where metadata and links are defined. -->
         <title>Google Search Images</title> <!-- Sets the title of the page displayed in the browser tab. -->
         <link rel="stylesheet" href="style.css"> <!-- Links an external CSS stylesheet called "style.css" to the HTML page for styling. -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Links an external font from Google Fonts for use in the page. -->
         <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Sets the viewport meta tag for responsive web design. -->
     </head>
-    <body> 
+    <body> <!-- The body section of the HTML document, where the visible content is defined. -->
         <div> <!-- Defines a div element to contain a section of content. -->
             <ul class="navbar-google"> <!-- Creates an unordered list with a class "navbar-google" for navigation links. -->
-                <li class="navbar-item-google"><a href="index.html">Google</a></li> <!-- List item with a link to "images.html" for Images search. -->                
+                <li class="navbar-item-google"><a href="index.html">Google</a></li> <!-- List item with a link to "index.html" for the homepage of the website. -->                
             </ul>
         </div>
-        <div class="center-div"> <!-- Defines a div with a class "google-logo" for the Google logo. -->
-            <img src="images.jpg" alt="Google Images Icon" height="92">
+        <div class="center-div"> <!-- Defines a div with a class "center-div" for centering content. -->
+            <img src="images.jpg" alt="Google Images Icon"> <!-- Displays an image with alternative text. -->
         </div>
         <form action="https://www.google.com/search"> <!-- Creates a form element for searching Google, with "action" attribute specifying where to send the search query. -->        
-            <input type="text" name="q" placeholder="Search Google..." class="rounded-input"> <!-- Input field for entering search queries with a placeholder. -->          
-            <input type="hidden" name="tbm" value="isch">
-            <div class="center-div">
-                <input type="submit" value="Google Images" class="btn-google"> <!-- Submit button for initiating the Google search. -->
+            <input type="text" name="q" placeholder="Search Google..." class="rounded-input"> <!-- Input field for entering search queries with a placeholder and a specified style class. -->          
+            <input type="hidden" name="tbm" value="isch"> <!-- Hidden input field to specify searching for images. -->
+            <div class="center-div"> <!-- Another div for centering content. -->
+                <input type="submit" value="Google Images" class="btn-google"> <!-- Submit button for initiating the Google search with a specified style class. -->
             </div>            
         </form>
     </body>
